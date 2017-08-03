@@ -8,13 +8,13 @@ QuickSort.java - This has the single pivot implementation of quick sort (both ra
 ### SPOPQ
 The below are two priority queues
 
-Index.java - helper for priority queues (PQ)
+prims.py - The PQ interface
 
-PQ.java - The PQ interface
+prims1.py - The PQ interface for IndexedHeap
 
-BinaryHeap.java - Normal implementation of PQ's using Binary Heap
+BinaryHeap.py - Normal implementation of PQ's using Binary Heap
 
-IndexedHeap.java - Indexed PQ version
+IndexedHeap.py - Indexed PQ version
 
 ### SP1
 Dijkstra.py - This has the implementaion of Dijkstra
