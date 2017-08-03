@@ -23,7 +23,7 @@ while len(indexedPriorityqueue) != 0:
     wmst += u.distance
     for e : u.adjList:
         v = e.otherEnd(u);
-        if !v.seen and e.Weight < v.distance
+        if v.seen and e.Weight < v.distance
             v.distance = e.Weight
             v.parent = u
             indexedPriorityqueue.decreaseKey(v)
